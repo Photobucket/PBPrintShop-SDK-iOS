@@ -1,202 +1,139 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+Developer Addendum to Photobucket.com Terms of Use Agreement
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Updated: 4/21/2008
 
-   1. Definitions.
+This addendum ("Developer Addendum") to the Photobucket.com Terms of Use Agreement ("Photobucket Agreement") which is available at http://photobucket.com/terms as may be updated by Photobucket from time to time, will apply in addition to the Photobucket Agreement with respect to your use of Photobucket’s application development services, including without limitation, the Developer Platform ("Developer Service"). The Photobucket Agreement and this Developer Addendum set forth legally binding terms for your use of the Developer Service. Any capitalized terms used in this Developer Addendum not otherwise defined will have the meaning assigned to them in the Photobucket Agreement. For the avoidance of doubt, the Developer Service is a "Photobucket Service" as defined by the Photobucket Agreement and therefore all references to "Photobucket Services" in the Photobucket Agreement will apply to your use of the Developer Service. In the event of a conflict between this Developer Addendum and the Photobucket Agreement, this Developer Addendum will govern you use of the Developer Service. By accessing and/or using the Developer Service you agree to be bound to the terms of the Photobucket Agreement and this Developer Addendum. The term "Developer" hereunder refers to a Member that has accessed and/or used the Developer Service. You are only authorized to use the Developer Service (regardless of whether your access or use is intended) if you agree to abide by all applicable laws, rules and regulations ("Applicable Law"), the Photobucket Agreement and this Developer Addendum. Please read the Photobucket Agreement and this Developer Addendum carefully. If you do not agree to be bound by both this Developer Addendum and the Photobucket Agreement and to follow all Applicable Law, you should discontinue use of the Developer Service immediately.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+If you wish to make use of the Developer Service, you must indicate your acceptance of the Photobucket Agreement and this Developer Addendum during the Developer application creation process. In order to use the Developer Service, you may be required to download software or content and/or agree to additional terms and conditions. You may receive a copy of the Photobucket Agreement and this Developer Addendum by emailing us at: devtourequest@photobucket.com, Subject: Developer Addendum. The Photobucket Agreement and this Developer Addendum include Photobucket’s policy for acceptable use of the Developer Service and any content posted on or through the Developer Service and your rights, obligations and restrictions regarding your use of the Developer Service and content posted on or through the Developer Service. Photobucket may modify the Photobucket Agreement or this Developer Addendum from time to time and such modification shall be effective upon posting by Photobucket on the Photobucket Website. Your continued use of the Developer Service after Photobucket posts a revised Photobucket Agreement and/or Developer Addendum signifies your acceptance of such revised Photobucket Agreement and/or Developer Addendum. It is therefore important that you review the Photobucket Agreement and this Developer Addendum regularly to ensure you are updated as to any changes.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+Definitions.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+1.1  "Developer Platform" means the software and supporting materials that enable a Developer to develop applications to interface with the Photobucket Services and may allow such applications to retrieve data provided by Photobucket relating to Users ("User Information"), retrieve Content as authorized from Users or provide Content from Photobucket Applications to Photobucket. The Developer Platform may include, without limitation, one or more APIs, programming tools and documentation.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+1.2  "Photobucket Application" means an application provided by the Developer that interfaces with the Photobucket Services.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+1.3  "Photobucket Application Content" means text, files, data, technology, software, code, user interfaces, images, photos, video, sounds, musical works, works of authorship, or any other information or materials that are included in or provided through or in connection with a Photobucket Application (other than the Photobucket Property, the Photobucket Content or other any information or materials that may be provided by Photobucket from time to time).
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+Eligibility. To use the Developer Service you must be a Member and have an active Photobucket profile. You hereby confirm that you are at least 18 years old, or if under 18, you have obtained your parent’s or legal guardian’s permission to use the Developer Service. You must be proficient in English to use the Developer Service. A valid email address must be submitted by each Developer and will be kept on file with Photobucket. It is important to keep this email address up to date because if the email address on file for you is deactivated or otherwise becomes invalid, your access to the Developer Service may be suspended or terminated.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+Term. This Developer Addendum shall remain in full force and effect while you are a Developer. You may terminate your Developer status at any time, for any reason, by ceasing to use the Developer Service. Photobucket may terminate your Developer status and your access to the Developer Service or may suspend or terminate your participation in the Developer Service or any part thereof, including, without limitation, by suspending or terminating your access to the Developer Platform or refusing to post, removing or deleting your Photobucket Application(s) and your Photobucket Application Content from the Photobucket Services, in full or in part, at any time, for any or no reason. Even after your Developer status and/or access to the Developer Service has terminated, this Developer Addendum and the Photobucket Agreement will remain in effect, except that all rights granted hereunder shall immediately terminate. Notwithstanding the foregoing, you understand and agree that Photobucket is under no obligation to delete or to ask its users to delete your Photobucket Application Content that has been incorporated into other aspects of the Photobucket Services, for example, within Photobucket profiles, and therefore such Photobucket Application Content may continue to appear and be used indefinitely.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+Developer Access. You will need a developer key for each Photobucket Application to provide to Photobucket in order to access the Developer Platform. You may register for a developer key at http://developer.photobucket.com. You may not share your developer key across multiple Photobucket Applications; each developer key will be issued for use in connection with a specific Photobucket Application only and you may not use that developer key for any other application other than that which you originally submitted the registration for. You must submit a separate registration for a developer key for use in connection with each Photobucket Application. You are entirely responsible for maintaining the confidentiality of your developer key(s). You agree not to use the developer key of another Developer at any time or to disclose your developer key(s) to any third party. You agree to notify Photobucket immediately if you suspect any unauthorized use of or access to your Photobucket Profile or your developer key(s). You are solely responsible for any and all use of your Photobucket Profile and developer key(s). Photobucket, Fox Interactive Media, Inc. ("FIM") and their affiliates are not responsible for any unauthorized access to, alteration of, or the deletion, destruction, damage, loss or failure to store any Content which you submit in connection with your Photobucket Profile or Photobucket Applications.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+Commercial Use. You may not include advertising, sponsorship or other commercial or promotional content (collectively, "Advertising") in connection with or otherwise derive revenue from your Photobucket Application or your use of the Developer Services, including, without limitation, charging users a fee to use your Photobucket Application or other integration of the Developer Service, selling services or products which integrate content collected through use of the Developer Service or collecting revenue from Advertising on a website which integrates content collected through use of the Developer Service (collectively, "Commercial Usage"). To use the Developer Service for Commercial Usage you must first register for and be granted a commercial developer key by Photobucket. Photobucket reserves the right to grant developer keys for Commercial Usage in its sole discretion.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+Proprietary Rights.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+6.1  As between the parties, Photobucket retains all right, title and interest, including without limitation, all intellectual property rights, in and to (i) the Developer Platform and any and all elements and components thereof, including without limitation, any and all content, data, technology, software, code, user interfaces and any derivative works thereof or relating thereto; (ii) User Information; and (iii) any feedback you may provide to Photobucket in connection with the Developer Service (the rights, titles and interests in (i), (ii) and (iii) collectively, "Photobucket Property"). You agree to take such actions (including, without limitation, execution of affidavits or other documents) as Photobucket may reasonably request to effect, perfect or confirm Photobucket’s rights to the Photobucket Property.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+6.2  Subject to the terms and conditions of the Photobucket Agreement and this Developer Addendum, Photobucket grants to you a limited, non-exclusive, revocable, non-sublicensable license to access and use the Developer Platform solely to develop, test, display, distribute and execute Photobucket Application(s) and Photobucket Application Content, allow you to access the User Information as made available by Photobucket and Content as made available by Users, and allow other users to access your Photobucket Application; provided that Photobucket reserves the right to limit, restrict or prohibit your or other User access to the Developer Service, including without limitation the Developer Platform, at any time or over a period of time, with or without notice, in its sole discretion. You will not, and will not permit any person, directly or indirectly, to (1) reverse engineer, disassemble, reconstruct, decompile, translate, modify, copy, or, other than as explicitly permitted hereunder, create derivative works of the Photobucket Services, including, without limitation, the Developer Platform, or any aspect or portion thereof, including without limitation, source code and algorithms; (2) alter or remove any identification, trademark, copyright, or other notice from any aspect or portion of the Photobucket Services, including, without limitation, the Developer Platform; (3) distribute, sell, resell, lease, license, sublicense or transfer or otherwise make the Developer Platform or any User Information available to third parties (including by storing the Developer Platform or User Information in any manner which would enable a third party to access it (other than the User from which such User Information was retrieved ("Originating User")); or (4) circumvent or modify any content protection mechanisms or Photobucket’s or FIM’s data measurement tools. You will use the User Information solely as necessary for the functionality of your Photobucket Application and must cease using and delete any User Information within 24 hours after the time which you obtained such data. For the avoidance of doubt, You are prohibited from storing any Photobucket login credentialing information (i.e., email and password).
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+6.3  As between the parties, you retain all right, title and interest, including without limitation, all intellectual property rights, in and to any Photobucket Application and Photobucket Application Content which you create (except for the Photobucket Property or other Photobucket Content contained therein). By submitting or posting a Photobucket Application or Photobucket Application Content through the Photobucket Services, you hereby grant to Photobucket a limited, non-exclusive, fully paid and royalty-free, worldwide license to link or otherwise redirect Users to such Photobucket Application or Photobucket Application Content (including, without limitation, under any patent issued for such). Except as expressly granted herein, neither party through this Developer Addendum grants the other party any intellectual property rights or other proprietary rights. You hereby release and covenant not to sue Photobucket, its subsidiaries, and affiliates, or their respective officers, agents, partners and employees, for any and all damages, liabilities, causes of actions, judgments, and claims pertaining to any materials or intellectual property you develop utilizing, in reliance on or with reference to the Developer Service or which otherwise may arise in connection with your utilization of, reliance on or reference to the Developer Service. In addition, you understand and acknowledge that (i) Photobucket and/or FIM may be independently creating applications and/or other Content in parallel with and similar to your efforts and (ii) nothing in this Developer Addendum or the Photobucket Agreement restricts or prevents Photobucket or FIM from creating and fully utilizing internally or externally any such applications and/or Content of Photobucket or FIM without any obligation to you.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+Applications.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+7.1  You are solely responsible for your Photobucket Applications and Photobucket Application Content, and any material or information that you transmit to other Members and for your interactions with other Users, including without limitation, complying with all Applicable Law and procuring and maintaining all necessary licenses, permissions and rights for your Photobucket Application(s).
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+7.2  You and your Photobucket Application and Photobucket Application Content will not, and will not permit any person, directly or indirectly, to:
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+7.2.1.  replicate or replace the Photobucket Services in whole or in part;
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+7.2.2.  remove, obscure, or alter any notice of patent, copyright, trademark or other proprietary right appearing on or contained within the Photobucket Services, including, without limitation, Developer Platform;
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+7.2.3.  interfere or attempt to interfere in any manner with the functionality or proper working of or otherwise adversely impact the Developer Platform or Photobucket Services, or any portion or feature thereof, or any other computer software or hardware, or otherwise permit the unauthorized use of or access to a computer or a computer network, including, without limitation, through the use of viruses, bots or worms;
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+7.2.4.  imply inaccurate creation, affiliation, sponsorship or endorsement of you or your Photobucket Application by Photobucket, FIM or any site or service owned, controlled or operated by FIM (each a "FIM Property"), including, without limitation, by using "Photobucket," "Bucket," "FIM," "Fox" or any variations, abbreviations or misspellings of the foregoing in your Photobucket Application’s name or URL to the right of the top level domain name without Photobucket’s prior written consent;
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+7.2.5.  circumvent or modify, attempt to circumvent or modify or claim the capability to circumvent or modify any security technology or software, content protection mechanism or Photobucket or FIM data measurement tools;
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+7.2.6.  lead a User to believe he or she is interacting directly with Photobucket or FIM;
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+7.2.7.  use any registered or unregistered trademarks, service marks, corporate logo, URL or other indicia of origin ("Marks") of Photobucket or FIM, whether in written format or graphics ("Photobucket Marks"), without first obtaining the prior written consent of Photobucket;
 
-   END OF TERMS AND CONDITIONS
+7.2.8.  use any Marks, including without limitation, the Photobucket Marks in a manner that would tarnish, dilute or otherwise impair the Mark owner’s right in and to such Marks;
 
-   APPENDIX: How to apply the Apache License to your work.
+7.2.9.  impose or purport to impose any obligation or grant any right, power or authority to yourself or any other person that would be unlawful or otherwise inconsistent with the Photobucket Agreement and Developer Addendum;
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "{}"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+7.2.10.  display or otherwise provide (i) any User Information to any User other than the Originating User without the prior consent of the Originating User or (ii) any other information that poses or creates a privacy or security risk to any person;
 
-   Copyright {yyyy} {name of copyright owner}
+7.2.11.  request, collect, solicit or otherwise obtain access to usernames, passwords or other authentication credentials for Photobucket from any Users other than by directing Users to Photobucket in the mechanism specifically provided by the Developer Service;
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+7.2.12.  proxy authentication credentials for any Users for the purposes of automating logins to the Photobucket Website or any FIM Property;
 
-       http://www.apache.org/licenses/LICENSE-2.0
+7.2.13.  provide "tracking" functionality to a User, (ex. to identify other users views or actions on a User’s profile page);
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+7.2.14.  deceive or attempt to deceive a user about the functionality of such Photobucket Application;
 
+7.2.15.  impersonate any person, or to obtain access to the Photobucket Website or Photobucket Services without authorization;
+
+7.2.16.  export content from the Photobucket Services into a service which competes with Photobucket;
+
+7.2.17.  use the Developer Service as a generic data hosting service;
+
+7.2.18.  enable any other person to personally identify any User except with such User’s express consent; or
+
+7.2.19.  Insert binary data into images or video files.
+
+7.3  If your Photobucket Application collects any payment or account information from Users you must comply with the then current rules and regulations of all payment networks you use and the Payment Card Industry Data Security Standards available at http://www.pcicomplianceguide.org/pci-basics.html.
+
+7.4  All Photobucket Applications must include a prominent notice stating that the application is not provided by or endorsed or certified by Photobucket.
+
+7.5  Photobucket reserves the right to limit, restrict or prohibit your Photobucket Application’s access to the Developer Platform, at any time or over a period of time, with or without notice, in its sole discretion.
+
+7.6  You agree to comply with any requirements or restrictions which a User has imposed on the usage of its Content, including without limitation, reflecting any updates or changes to such requirements or restrictions as promptly as possible.
+
+Content Posted
+
+8.1  Please select the subject matter and content of your Photobucket Application carefully. Each Photobucket Application and all Photobucket Application Content must comply with (i) this Developer Addendum, (ii) the Application Guidelines, (iii) the Photobucket Agreement (including, without limitation, the content guidelines set forth in Sections 7 and 8); and (iv) all Applicable Law. Photobucket reserves the right, in its sole discretion to review your Photobucket Application prior to granting you access to the Developer Platform, to refuse access to, restrict, suspend or terminate your status as a Developer and/or your access to all or any part of the Developer Service or to remove any Photobucket Application or any Photobucket Application Content from the Photobucket Services at any time, for any or no reason, with or without prior notice, and without liability. Photobucket expressly reserves the right to remove any Photobucket Application or any Photobucket Application Content from the Photobucket Services and/or remove your Photobucket Profile and/or restrict, suspend or terminate your access to any part of the Developer Service and your Photobucket Application(s) and any of your Photobucket Application Content if Photobucket determines, in its sole discretion, that you or any of your content, your Photobucket Application(s) or any of your Photobucket Application Content have violated this Developer Addendum or the Photobucket Agreement or pose a threat to other Developers and/or Photobucket and/or its Users. If your Photobucket account is removed or your access is restricted, suspended, or terminated to any other Photobucket Service for any or no reason, your access to the Developer Service may be restricted, suspended, or terminated and your Photobucket Application(s) and/or your Photobucket Application Content may be removed immediately, in Photobucket’s sole discretion.
+
+8.2  You agree to expeditiously remove any Photobucket Application Content upon (i) Photobucket’s request, (ii) the request of the User from which such Photobucket Application Content was retrieved, and/or (iii) in connection with a notice of infringement as further described in Section 9 below.
+
+Protecting Copyright and Other Intellectual Property.
+
+9.1  You agree to take all actions necessary to allow and assist Photobucket and FIM to comply with the Photobucket Copyright and IP Policy available at http://photobucket.com/copyright/.
+
+9.2  You may not use the Photobucket Marks without first obtaining prior written approval for each such use. You may request permission to use the Photobucket Marks by contacting developertrademark@photobucket.com. Any use of the Photobucket Marks must be less prominent than the Photobucket Application’s logo.
+
+Privacy.
+
+10.1  You agree to implement and comply with standards of privacy and confidentiality for the collection, use, sharing and storage of any data related to any User, including without limitation any User Information, that are at least as stringent and user-favorable as the standards set forth in the Photobucket privacy policy. You may only collect personally identifiable information ("PII") from a User if that User "opts-in" to such collection after you have clearly disclosed that the information is being collected directly by you, and not by Photobucket or FIM and have directed the User via link to your privacy policy. You are prohibited from providing any data related to Photobucket Users which you access or collect or are provided in connection with your Photobucket Application to any third party, including for the purpose of Advertising.
+
+10.2  The Photobucket Services, including, without limitation, the Developer Service includes certain restrictions on data access meant to protect User privacy and gives Users the ability to control access to privacy settings for their data. You hereby agree to comply with, and in no way circumvent, all such data access restrictions set by Photobucket and any privacy settings that the User has selected and to reflect updates to any such restrictions and settings as promptly as possible. In addition, you agree to cease using and delete any Content from your Photobucket Application within 24 hours if Photobucket or the owner of Content asks you to remove such Content.
+
+10.3  At the reasonable request of Photobucket, you will promptly provide Photobucket with information about a particular User of your Photobucket Application in order to: (i) protect or defend the legal rights or property of Photobucket, FIM, or other companies within or affiliated with the News America Group or their employees, agents and contractors; to (including enforcement of our agreements); (ii) protect the safety and security of Users of the Photobucket Services; to or members of the public including acting in urgent circumstances; (iii) protect against fraud or for risk management purposes; or to (iv) comply with the law or legal process.
+
+Representations and Warranties. You hereby represent and warrant that:
+
+11.1  you have the right, power and authority to enter into the Photobucket Agreement and Developer Addendum and to perform the acts required of you hereunder and it will be enforceable against you and without limiting the foregoing, you represent and warrant that you are at least 18 years old, or if under 18, you have obtained your parent’s or legal guardian’s permission to use the Developer Service;
+
+11.2  your Photobucket Application, your entrance into the Photobucket Agreement and Developer Addendum and performance of your obligations hereunder or the rights you’ve granted to Photobucket hereunder, do not and will not violate any other agreement or legal obligation to which you are bound;
+
+11.3  any and all activities you undertake in connection with the Photobucket Agreement and Developer Addendum will be performed in compliance with all Applicable Law and your use of the Developer Service is solely for lawful purposes; and
+
+11.4  your Photobucket Application and Photobucket Application Content will at all times comply with the terms of the Photobucket Agreement and Developer Addendum, including without limitation the Application Guidelines.
+
+Disclaimers. You hereby acknowledge and agree that:
+
+12.1  Photobucket reserves the right at any time and for any reason to modify, limit, suspend or discontinue the Developer Service, in whole or in part, with or without notice and Photobucket will not be liable to you or any third party for any such modification, limitation, suspension or discontinuance.
+
+12.2  Your Photobucket Applications may be referenced or linked to by Photobucket or its Users anywhere within any Photobucket Service or FIM Properties. Photobucket does not guarantee that your Photobucket Application will be able to access, placed in, or available through, any part of the Photobucket Website, nor do we guarantee that your Photobucket Application will appear in a particular position.
+
+12.3  Photobucket has no obligation to provide you with customer support or software upgrades, enhancements, or modifications to the Developer Service (collectively, "Support"). However, if Photobucket elects at any time to provide you with Support, it may subsequently terminate the Support at any time without notice to you for any or no reason.
+
+12.4  You are solely responsible for, and Photobucket has no responsibility or liability of any kind for, the development, operation, security, Support and maintenance of your Photobucket Applications and Photobucket Application Content.
+
+Indemnity. You agree to indemnify, defend and hold Photobucket, its subsidiaries, and affiliates, and their respective officers, agents, partners and employees, harmless from any loss, liability, claim, or demand, including reasonable attorneys' fees, made by any third party due to or arising out of your use of the Photobucket Services in violation of the Photobucket Agreement or this Developer Addendum and/or arising from a breach of the Photobucket Agreement or this Developer Addendum and/or any breach of your representations and warranties set forth in the Photobucket Agreement or this Developer Addendum and/or if any Photobucket Application, Photobucket Application Content or other Content that you post on or through the Photobucket Services causes Photobucket to be liable to another.
+
+Testing. From time to time Photobucket may conduct private and/or public beta tests (each a "Beta") of new features or versions of the Developer Service. If you choose to register for a Beta, your participation may be subject to additional terms. You agree that all feedback you record or provide to Photobucket in connection with your participation shall be the property of Photobucket.
+
+Publicity. You may promote your Photobucket Application, however you may not issue any press release or other publicity statement or promotional materials using any Photobucket Marks without first obtaining the prior written consent of Photobucket; provided that you may factually state that your Photobucket Application is a "Photobucket application" or an application for use with Photobucket (so long as you are in full compliance with the terms of the Photobucket Agreement and Developer Addendum). Photobucket reserves the right to issue publicity and promotional materials mentioning and/or describing the Developer Service, Photobucket Applications and/or Developers.
+
+Other.
+
+16.1  You agree and acknowledge that Photobucket has the right to verify your compliance with the Photobucket Agreement and Developer Addendum (and you will not interfere with Photobucket’s ability to do so), including without limitation, by submitting fake user information or Content that does not relate to any actual person through your Photobucket Application or crawling or otherwise monitoring your Photobucket Application. In addition, at Photobucket’s reasonable request you will provide Photobucket with information and/or other materials, and if any of your Photobucket Applications are downloadable, including, without limitation, on a mobile or other wireless device, you will provide Photobucket with a copy of such downloadable Photobucket Application(s) and any supporting documentation.
+
+16.2  You understand that Photobucket is a subsidiary of FIM, and that FIM and Photobucket use the Photobucket Website and the Photobucket Services to advertise their respective products and services. Photobucket may assign any of its rights or obligations under this Developer Addendum, in whole or in part, to any affiliate, including without limitation, to FIM.
+
+16.3  This Developer Addendum is accepted and your acceptance of the Photobucket Agreement is affirmed upon your use of the Developer Service. This Developer Addendum and the Photobucket Agreement constitute the entire agreement between you and Photobucket regarding the use of the Developer Service. The failure of Photobucket to exercise or enforce any right or provision of this Developer Addendum or the Photobucket Agreement shall not operate as a waiver of such right or provision. The section titles in this Developer Addendum are for convenience only and have no legal or contractual effect. This Developer Addendum operates to the fullest extent permissible by law. If any provision of this Developer Addendum or the Photobucket Agreement is unlawful, void or unenforceable, that provision is deemed severable from this Developer Addendum and the Photobucket Agreement and does not affect the validity and enforceability of any remaining provisions.
+
+Please contact us by clicking on the following link: http://photobucket.com/contact with any questions regarding this Developer Addendum or the Photobucket Agreement.
