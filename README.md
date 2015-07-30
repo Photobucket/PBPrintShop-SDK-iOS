@@ -17,12 +17,15 @@ Allows customizing and purchasing of print products available in Photobucket's P
 
 ### On iOS 8 and above (iOS framework):
 1. In your target's settings, select the General tab
-2. Drag the PBPrintShop.framework into Embedded Binaries section. Make sure the Copy option is selected.
+2. Drag the PBPrintShop.plist into your project.
+3. Drag the PBPrintShop.framework into Embedded Binaries section. Make sure the Copy option is selected.
 
 ## Using the SDK
 
 In the AppDelegate application:didFinishLaunchingWithOptions: method add code similar to the following:
 ```obj-c
+    #import "PBPrintShop.h"
+    
     NSDictionary *params = @{ kPBPSEmailAddress : @"joe@blow.com",
                              };
     PBPSInitResult result = [[PBPrintShop printShop] initializeWithParameters:params
@@ -40,6 +43,8 @@ In the AppDelegate application:didFinishLaunchingWithOptions: method add code si
 
 To invoke the PrintShop UI, declare your view controller as a PBPrintShopDelegate and use code similar to the following:
 ```
+#import "PBPrintShop.h"
+
 - (IBAction)openPrintShop:(id)sender {
     [PBPrintShop printShop].delegate = self;
     NSDictionary *params = @{kPBPSParentViewController : self,
@@ -54,3 +59,12 @@ To invoke the PrintShop UI, declare your view controller as a PBPrintShopDelegat
     NSLog(@"PrintShopDidClose:%@", info);
 }
 ```
+
+## Initialization Parameters
+TBD
+
+## Launch Parameters
+TBD
+
+## Customization Plist Values
+TBD
