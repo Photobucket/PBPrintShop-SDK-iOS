@@ -9,6 +9,16 @@
 FOUNDATION_EXPORT double PBPrintShopVersionNumber;
 FOUNDATION_EXPORT const unsigned char PBPrintShopVersionString[];
 
+// NSError domain
+extern NSString * const kPBPSErrorDomain;
+
+// NSError error codes
+extern NSInteger const kPBPSErrorInvalidResponse;
+
+// NSError userInfo dictionary keys
+extern NSString * const kPBPSErrorResponseHeaders;
+extern NSString * const kPBPSErrorResponseBody;
+
 // Initialize parameter dictionary keys
 extern NSString * const kPBPSClientId;
 extern NSString * const kPBPSClientSecret;
@@ -33,7 +43,8 @@ extern NSString * const kPBPSLastCartItemTimestamp;
 extern NSString * const kPBPSLastViewedTimestamp;
 
 typedef NS_ENUM(NSInteger, PBPSInitResult) {
-    PBPSInitResultNetworkError = -3,
+    PBPSInitResultNetworkError = -4,
+    PBPSInitResultInvalidPlist = -3,
     PBPSInitResultMissingPlist = -2,
     PBPSInitResultInvalidParameters = -1,
     PBPSInitResultSuccess = 0,
