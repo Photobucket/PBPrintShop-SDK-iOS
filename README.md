@@ -8,6 +8,7 @@ Allows customizing and purchasing of print products available in Photobucket's P
 * Deployment on iOS 7 or above
 * ARC only
 * [SDWebImage](https://github.com/rs/SDWebImage)
+* [Braintree](https://github.com/braintree/braintree_ios)
 
 ## Installation
 
