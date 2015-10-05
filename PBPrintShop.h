@@ -22,6 +22,7 @@ extern NSString * const kPBPSErrorResponseBody;
 // Initialize parameter dictionary keys
 extern NSString * const kPBPSClientId;
 extern NSString * const kPBPSClientSecret;
+extern NSString * const kPBPSEnvironment;
 extern NSString * const kPBPSEmailAddress;
 extern NSString * const kPBPSDataSources;
 extern NSString * const kPBPSVerizonLCID;
