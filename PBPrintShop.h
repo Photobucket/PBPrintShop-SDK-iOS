@@ -22,6 +22,7 @@ extern NSString * const kPBPSErrorResponseBody;
 // Initialize parameter dictionary keys
 extern NSString * const kPBPSClientId;
 extern NSString * const kPBPSClientSecret;
+extern NSString * const kPBPSBaseUrl;
 extern NSString * const kPBPSEnvironment;
 extern NSString * const kPBPSEmailAddress;
 extern NSString * const kPBPSDataSources;
@@ -72,6 +73,7 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
 @interface PBPrintShop : NSObject
 
 @property (nonatomic, weak) NSObject<PBPrintShopDelegate> *delegate;
+@property (nonatomic, readonly, getter=isInitialized) BOOL initialized;
 
 /**
  Photobucket PrintShop singleton
