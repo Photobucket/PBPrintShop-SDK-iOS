@@ -74,6 +74,7 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
 
 @property (nonatomic, weak) NSObject<PBPrintShopDelegate> *delegate;
 @property (nonatomic, readonly, getter=isInitialized) BOOL initialized;
+@property (nonatomic, readonly) NSString *baseUrl;
 
 /**
  Photobucket PrintShop singleton
