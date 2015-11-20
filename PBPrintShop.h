@@ -23,7 +23,6 @@ extern NSString * const kPBPSErrorResponseBody;
 extern NSString * const kPBPSClientId;
 extern NSString * const kPBPSClientSecret;
 extern NSString * const kPBPSBaseUrl;
-extern NSString * const kPBPSEnvironment;
 extern NSString * const kPBPSEmailAddress;
 extern NSString * const kPBPSDataSources;
 extern NSString * const kPBPSVerizonLCID;
@@ -37,12 +36,15 @@ extern NSString * const kPBPSProductId;
 extern NSString * const kPBPSPromoCode;
 extern NSString * const kPBPSVerizonAPI;
 extern NSString * const kPBPSParentViewController;
+extern NSString * const kPBPSLaunchScreen;
+
+// Launch screen values
+extern NSString * const kPBPSLaunchScreenHome;
+extern NSString * const kPBPSLaunchScreenShoppingCart;
 
 // Shopping Cart Info property keys
 extern NSString * const kPBPSCartItemCount;
-extern NSString * const kPBPSFirstCartItemTimestamp;
-extern NSString * const kPBPSLastCartItemTimestamp;
-extern NSString * const kPBPSLastViewedTimestamp;
+extern NSString * const kPBPSCartTimestamp;
 
 typedef NS_ENUM(NSInteger, PBPSInitResult) {
     PBPSInitResultNetworkError = -4,
@@ -53,6 +55,7 @@ typedef NS_ENUM(NSInteger, PBPSInitResult) {
 };
 
 typedef NS_ENUM(NSInteger, PBPSLaunchResult) {
+    PBPSLaunchResultNetworkError = -3,
     PBPSLaunchResultNotInitialized = -2,
     PBPSLaunchResultInvalidParameters = -1,
     PBPSLaunchResultSuccess = 0,
@@ -75,6 +78,8 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
 @property (nonatomic, weak) NSObject<PBPrintShopDelegate> *delegate;
 @property (nonatomic, readonly, getter=isInitialized) BOOL initialized;
 @property (nonatomic, readonly) NSString *baseUrl;
+@property (nonatomic, readonly) NSUInteger cartItemCount;
+@property (nonatomic, readonly) NSString *cartTimestamp;
 
 /**
  Photobucket PrintShop singleton
@@ -94,8 +99,8 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
 - (PBPSLaunchResult)launchWithParameters:(NSDictionary *)launchParameters;
 
 /**
- Returns the customer's shopping cart info.
+ Clears the customer's shopping cart of all products.
  */
-- (void)getShoppingCart:(void (^)(NSDictionary *cartInfo, NSError *error))completionHandler;
+- (void)clearShoppingCart;
 
 @end
