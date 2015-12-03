@@ -71,6 +71,9 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
 
 @protocol PBPrintShopDelegate
 - (void)printShopDidClose:(NSDictionary *)cartInfo;
+
+@optional
+- (void)cartUpdatedTimestamp:(NSString *)timestamp itemCount:(NSUInteger)itemCount;
 @end
 
 @interface PBPrintShop : NSObject
