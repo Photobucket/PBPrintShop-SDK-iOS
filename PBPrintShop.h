@@ -46,6 +46,32 @@ extern NSString * const kPBPSLaunchScreenShoppingCart;
 extern NSString * const kPBPSCartItemCount;
 extern NSString * const kPBPSCartTimestamp;
 
+// Broadcast events
+extern NSString * const kPBPSEventEntry;
+extern NSString * const kPBPSEventExit;
+extern NSString * const kPBPSEventImageEdit;
+extern NSString * const kPBPSEventContinueShopping;
+extern NSString * const kPBPSEventHelp;
+extern NSString * const kPBPSEventAddToCart;
+extern NSString * const kPBPSEventProductViewed;
+extern NSString * const kPBPSEventOrderSubmitted;
+
+// Event attributes
+extern NSString * const kPBPSEventAttrScreenName;
+extern NSString * const kPBPSEventAttrNumberOfPhotos;
+extern NSString * const kPBPSEventAttrNumberOfItemsPurchased;
+extern NSString * const kPBPSEventAttrStatus;
+extern NSString * const kPBPSEventAttrDuration;
+extern NSString * const kPBPSEventAttrProductName;
+extern NSString * const kPBPSEventAttrQuantity;
+extern NSString * const kPBPSEventAttrItemsPurchased;
+
+// Event screen names
+extern NSString * const kPBPSEventScreenHome;
+extern NSString * const kPBPSEventScreenShoppingCart;
+extern NSString * const kPBPSEventScreenCheckout;
+extern NSString * const kPBPSEventScreenOrderConfirmation;
+
 typedef NS_ENUM(NSInteger, PBPSInitResult) {
     PBPSInitResultNetworkError = -4,
     PBPSInitResultInvalidPlist = -3,
@@ -70,9 +96,15 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
 };
 
 @protocol PBPrintShopDelegate
+/**
+ Called when the PrintShop SDK closes.
+ */
 - (void)printShopDidClose:(NSDictionary *)cartInfo;
 
 @optional
+/**
+ Returns the shopping cart timestamp and item count.
+ */
 - (void)cartUpdatedTimestamp:(NSString *)timestamp itemCount:(NSUInteger)itemCount;
 @end
 
@@ -105,5 +137,15 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
  Clears the customer's shopping cart of all products.
  */
 - (void)clearShoppingCart;
+
+/**
+ Add observer to all PrintShop events
+ */
+- (void)addEventObserver:(NSObject *)observer selector:(SEL)aSelector;
+
+/**
+ Remove observer to PrintShop events
+ */
+- (void)removeEventObserver:(NSObject *)observer;
 
 @end
