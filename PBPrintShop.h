@@ -65,6 +65,8 @@ extern NSString * const kPBPSEventAttrDuration;
 extern NSString * const kPBPSEventAttrProductName;
 extern NSString * const kPBPSEventAttrQuantity;
 extern NSString * const kPBPSEventAttrItemsPurchased;
+extern NSString * const kPBPSEventAttrAddressValidationErrors;
+extern NSString * const kPBPSEventAttrPromoCode;
 
 // Event screen names
 extern NSString * const kPBPSEventScreenHome;
