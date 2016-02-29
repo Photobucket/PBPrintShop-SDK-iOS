@@ -41,6 +41,10 @@ extern NSString * const kPBPSLaunchScreen;
 // Launch screen values
 extern NSString * const kPBPSLaunchScreenHome;
 extern NSString * const kPBPSLaunchScreenShoppingCart;
+extern NSString * const kPBPSLaunchScreenProductPrints;
+extern NSString * const kPBPSLaunchScreenProductFramedPrints;
+extern NSString * const kPBPSLaunchScreenProductCanvasPrints;
+extern NSString * const kPBPSLaunchScreenProductMetalPrints;
 
 // Shopping Cart Info property keys
 extern NSString * const kPBPSCartItemCount;
