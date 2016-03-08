@@ -140,6 +140,11 @@ typedef NS_ENUM(NSInteger, PBPSDataSource) {
 - (PBPSLaunchResult)launchWithParameters:(NSDictionary *)launchParameters;
 
 /**
+ Close the PrintShop UI.
+ */
+- (void)close;
+
+/**
  Clears the customer's shopping cart of all products.
  */
 - (void)clearShoppingCart;
